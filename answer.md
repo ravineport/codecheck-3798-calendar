@@ -1,1 +1,7 @@
-[Write a brief explanation about how your code works here!]
+### 概要
+`NewCalendar`クラスを新しく作成しました．
+
+`calc_day_of_the_week`メソッドを呼び出すことで，`YYYY-MM-DD`から曜日を計算することができます．
+
+方針としては，入力された`YYYY`までに閏月を考慮して何日あるかを計算，その後`MM-DD`分の日数を足して，`YYYY-MM-DD`を日数に変換しています．  
+あとは，計算した日数を一週間の日数で割った余りを基に曜日に変換しています．
